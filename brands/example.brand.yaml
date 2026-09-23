@@ -1,0 +1,30 @@
+# Example brand config — copy and adapt for a new channel.
+# Secret *values* live in Doppler. This file stores names only.
+
+brand_id: example
+display_name: Example Brand
+channel_id: UCxxxxxxxxxxxxxxxxxxxxxx
+
+# GCP / OAuth context (see docs/setup-oauth.md)
+gcp_project: diger-youtube
+oauth_client_type: desktop
+
+doppler:
+  project: diger-youtube
+  config: example  # Doppler config name for this brand
+
+# Doppler secret *names* (not values)
+secrets:
+  client_id: YOUTUBE_OAUTH_CLIENT_ID
+  client_secret: YOUTUBE_OAUTH_CLIENT_SECRET
+  refresh_token: YOUTUBE_OAUTH_REFRESH_TOKEN
+
+defaults:
+  # Kit never auto-Public. Uploads default to Unlisted.
+  privacy_status: unlisted
+  category_id: "22"  # People & Blogs
+  made_for_kids: false
+  notify_subscribers: false
+
+# Optional local token cache path (gitignored). Relative to cwd when running CLI.
+token_cache: tokens/example.token.json

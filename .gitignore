@@ -1,0 +1,41 @@
+# Secrets & local auth — never commit
+.env
+.env.*
+!.env.example
+client_secret*.json
+credentials.json
+token.json
+*.token.json
+tokens/
+.secrets/
+doppler.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Media scratch (local uploads/thumbs)
+/media/
+/tmp-upload/
+*.mp4
+*.mov
+*.webm
