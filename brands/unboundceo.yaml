@@ -8,11 +8,11 @@ channel_id: UCwt4BI86Ovzi0EUtv0cs--w
 # GCP / OAuth context (see docs/setup-oauth.md)
 gcp_project: diger-youtube
 oauth_client_type: desktop
-# Test user on the OAuth consent screen (Testing mode): ops@digerstudios.com
+# Test user on the OAuth consent screen (Testing mode): ops@unboundceo.com
 
 doppler:
-  project: diger-youtube
-  config: unboundceo
+  project: youtube-data-api
+  config: prd
 
 # Doppler secret *names* (not values)
 secrets:

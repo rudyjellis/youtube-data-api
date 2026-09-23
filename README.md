@@ -29,7 +29,7 @@ Requires Python 3.10+, Doppler CLI (or env vars matching the secret names), and 
 
 | Brand | Channel | Doppler |
 | --- | --- | --- |
-| `unboundceo` | `UCwt4BI86Ovzi0EUtv0cs--w` | project `diger-youtube` / config `unboundceo` |
+| `unboundceo` | `UCwt4BI86Ovzi0EUtv0cs--w` | project `youtube-data-api` / config `prd` |
 | `example` | placeholder | copy for new channels |
 
 Secret **names** in YAML:
@@ -72,4 +72,4 @@ resp = insert_video(yt, brand, file_path="clip.mp4", title="Draft")  # Unlisted
 
 ## OAuth
 
-GCP project **`diger-youtube`**, **Desktop** OAuth client, consent-screen test user **`ops@digerstudios.com`**. Full steps: [docs/setup-oauth.md](docs/setup-oauth.md).
+GCP project **`diger-youtube`**, **Desktop** OAuth client, consent-screen test user **`ops@unboundceo.com`**. Full steps: [docs/setup-oauth.md](docs/setup-oauth.md).

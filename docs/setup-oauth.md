@@ -16,7 +16,7 @@ refresh tokens, or `tokens/*.token.json`.
      - `https://www.googleapis.com/auth/youtube.upload`
      - `https://www.googleapis.com/auth/youtube.force-ssl`
    - Publishing status: leave in **Testing** until verified.
-   - **Test users**: add **`ops@digerstudios.com`** (and any other operators who will run `auth-login`).
+   - **Test users**: add **`ops@unboundceo.com`** (and any other operators who will run `auth-login`).
 
 ## 2. Create a Desktop OAuth client
 
@@ -28,7 +28,7 @@ refresh tokens, or `tokens/*.token.json`.
 
 ## 3. Doppler secrets (names referenced by brand YAML)
 
-Create Doppler project **`diger-youtube`** with a config per brand (e.g. `unboundceo`).
+Create Doppler project **`youtube-data-api`** (configs `dev`/`prd`). Brand YAML points at project + config.
 
 | Secret name (store the *value* in Doppler) | Purpose |
 | --- | --- |
@@ -48,7 +48,7 @@ Optional: export the same names as env vars for local runs without the Doppler C
 
 ## 4. First interactive login (as the ops test user)
 
-Sign in as **`ops@digerstudios.com`** (must be on the consent screen test-user list)
+Sign in as **`ops@unboundceo.com`** (must be on the consent screen test-user list)
 and complete Desktop OAuth:
 
 ```bash
