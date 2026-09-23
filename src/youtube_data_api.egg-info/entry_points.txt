@@ -1,2 +1,0 @@
-[console_scripts]
-youtube-data-api = youtube_data_api.cli:main
