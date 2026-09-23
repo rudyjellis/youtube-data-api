@@ -42,7 +42,7 @@ Example for Unbound CEO (`brands/unboundceo.yaml`):
 
 - Doppler project: `diger-youtube`
 - Doppler config: `unboundceo`
-- Channel ID: `UCwt4BI86Ovzi0EUtv0cs--w`
+- Channel ID: `UCwt4BI86Ovzi0eUtv0cs--w`
 
 Optional: export the same names as env vars for local runs without the Doppler CLI.
 

@@ -2,7 +2,7 @@
 
 Reusable **multi-brand** YouTube Data API kit: Desktop OAuth, list uploads, **insert as Unlisted**, update metadata, set thumbnails.
 
-First instance: **Unbound CEO** (`UCwt4BI86Ovzi0EUtv0cs--w`).
+First instance: **Unbound CEO** (`UCwt4BI86Ovzi0eUtv0cs--w`).
 
 ## Safety
 
@@ -29,7 +29,7 @@ Requires Python 3.10+, Doppler CLI (or env vars matching the secret names), and 
 
 | Brand | Channel | Doppler |
 | --- | --- | --- |
-| `unboundceo` | `UCwt4BI86Ovzi0EUtv0cs--w` | project `youtube-data-api` / config `prd` |
+| `unboundceo` | `UCwt4BI86Ovzi0eUtv0cs--w` | project `youtube-data-api` / config `prd` |
 | `example` | placeholder | copy for new channels |
 
 Secret **names** in YAML:

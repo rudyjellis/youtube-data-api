@@ -3,7 +3,7 @@
 
 brand_id: unboundceo
 display_name: Unbound CEO
-channel_id: UCwt4BI86Ovzi0EUtv0cs--w
+channel_id: UCwt4BI86Ovzi0eUtv0cs--w
 
 # GCP / OAuth context (see docs/setup-oauth.md)
 gcp_project: diger-youtube
